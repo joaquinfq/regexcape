@@ -1,0 +1,23 @@
+{
+    "name"        : "regexcape",
+    "version"     : "1.0.0",
+    "description" : "Implementation of RegExp.escape proposal from ECMAScript",
+    "main"        : "index.js",
+    "scripts"     : {
+        "test" : "node test.js"
+    },
+    "repository"  : {
+        "type" : "git",
+        "url"  : "git+https://github.com/joaquinfq/regexcape.git"
+    },
+    "keywords"    : [
+        "regexp",
+        "escape"
+    ],
+    "author"      : "Joaquín Fernández <public@joaquinfernandez.net>",
+    "license"     : "MIT",
+    "bugs"        : {
+        "url" : "https://github.com/joaquinfq/regexcape/issues"
+    },
+    "homepage"    : "https://github.com/joaquinfq/regexcape#readme"
+}
