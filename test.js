@@ -7,12 +7,12 @@ const reChars   = '^$\\.*+?()[]{}|';
 /**
  * Verifica que el carácter actual sea el esperado.
  *
- * @param {Number} actual   Carácter actual a verificar.
- * @param {String} expected Carácter esperado.
+ * @param {String|Number} actual   Carácter actual a verificar.
+ * @param {String|Number} expected Carácter esperado.
  */
 function check(actual, expected)
 {
-    assert(actual, expected);
+    assert.equal(actual, expected);
     ++numAssertions;
 }
 /**
